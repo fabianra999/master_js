@@ -49,15 +49,12 @@ for (let i = 0; i <= todosDiv.length; i++) {
 
 };
 for (let contador of todosDiv) {
-    console.log(contador)
+    console.log(contador);
 };
-personas.forEach((element, indice) => {
-    console.log(`${indice} => ${element}`);
-});
-
 todosDiv.forEach((element, indice) => {
     console.log(`${indice} => ${element}`);
 });
+
 
 /**
  *  Selector por clase
