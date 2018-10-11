@@ -13,19 +13,47 @@
 
 <body>
     <div class="jumbotron">
-        <h1 class="display-4">Dom</h1>
+        <h1 class="display-4">Eventos</h1>
         <p class="lead">
-            Document Object Model
+            Eventos de raton, Teclado, load, timers
         </p>
         <hr class="my-4">
         <p></p>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <p>Evento onclick en markup.</p>
+                <button id="btn_1" onclick="queEs();">Boton</button>
+                <hr>
+            </div>
+            <div class="col-12 col-sm-4">
+                <p>Evento click.</p>
+                <button id="btn_2">Boton</button>
+                <hr>
+            </div>
+            <div class="col-12 col-sm-4">
+                <p>Evento Hover y Mouse out.</p>
+                <button id="btn_3">Boton</button>
+                <hr>
+            </div>
+            <div class="col-12 col-sm-4">
+                <p>Evento teclas, focus, blur, keydown, keypress, keyup.</p>
+                <form action="">
+                    <input type="text" name="nombre" id="compoNombre">
+                </form>
+                <hr>
+            </div>
+            <div class="col-12 col-sm-4">
+                <p>timer.</p>
+                <button id="timerBtnInicio">inicio intervalo</button>
+                <button id="timerBtn">terminar intervalo</button>
+                <hr>
+            </div>
+        </div>
+    </div>
 
-    <div id="caja" class="caja"> Caja_0 </div>
-    <div class="caja"> Caja_1 </div>
-    <div class=""> Caja_2 </div>
-    <div class="caja"> Caja_3 </div>
-    <div class="caja"> Caja_4 </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

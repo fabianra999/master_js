@@ -51,8 +51,34 @@ for (let i = 0; i <= todosDiv.length; i++) {
 for (let contador of todosDiv) {
     console.log(contador);
 };
-todosDiv.forEach((element, indice) => {
-    console.log(`${indice} => ${element}`);
+
+
+var caja = document.getElementsByClassName("caja");
+console.log('caja');
+console.dir(caja);
+for (let itemCaja in caja) {
+    if (caja[itemCaja].className == "caja") {
+        caja[itemCaja].style.background = "tomato";
+        caja[itemCaja].style.color = "white";
+    }
+}
+
+console.log('clasequery');
+var clasequery = document.querySelectorAll('.caja');
+clasequery.forEach(function(userItem) {
+    console.log(clasequery[userItem]);
+});
+for (let item in clasequery) {
+    if (clasequery[item].className == "caja") {
+        clasequery[item].style.color = "gold";
+    }
+}
+
+
+console.log('forEach');
+document.querySelectorAll('.caja').forEach(function(item2) {
+    console.log(item2);
+    item2.style.color = "black";
 });
 
 
