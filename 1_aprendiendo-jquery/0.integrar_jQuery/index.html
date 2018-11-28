@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .zebra {
+            border: 5px dashed black;
+        }
+        
+        .grande {
+            font-size: 30px;
+        }
+        
+        .margen-superior {
+            display: block;
+            margin-top: 45px;
+        }
+        
+        .resaltado {
+            border-bottom: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Master js</h1>
+        <p class="lead">jQuery</p>
+        <hr class="my-4">
+        <p>integrar jQuery y selectores</p>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Aprendiendo jQuery con Víctor Robles WEB</h1>
+
+                <ul>
+                    <li><a href="https://www.google.com" title="Google">Ir a Google</a></li>
+                    <li><a href="https://www.facebook.com" title="Facebook">Ir a Facebook</a></li>
+                </ul>
+
+                <p id="rojo" class="sin_borde">Ejercicios de jQuery</p>
+                <p id="amarillo" class="zebra">Practicando con selectores</p>
+                <p id="verde" class="sin_borde">Quiero ser un parrafo verde</p>
+                <p class="zebra">Soy un parrafo blanco</p>
+
+                <div id="caja">
+                    <p>Hola soy una caja
+                        <p>
+                            <ul>
+                                <li>Elemento 1</li>
+                                <li id="elemento2">Elemento 2</li>
+                            </ul>
+                            <span class="resaltado">Soy un span</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- MiScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
